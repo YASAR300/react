@@ -22,7 +22,7 @@ function App() {
           Count is {count}
         </button>
         <button 
-          onMouseEnter={() => setCount((count) => count + 200)}
+          onMouseEnter={() => setCount((count) => count + 10000)}
         >
           Hover to add 200
         </button>
