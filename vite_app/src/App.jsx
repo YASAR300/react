@@ -7,7 +7,7 @@ import MainBox from './vid';
 import Main from './m';
 import YourComponent from './title';
 // import oneJs from './one';
-// import YourJs from './js';
+import YourJs from './js';
 
 
 // import video from './img/2.mp4';
@@ -21,7 +21,7 @@ const App = () => {
       <Main />
       <YourComponent />
       {/* <oneJs /> */}
-      {/* <YourJs /> */}
+      <YourJs />
     </div>
   );
 };
